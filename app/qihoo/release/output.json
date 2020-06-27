@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.coolweather.android.qihoo",
+  "variantName": "qihooRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 1,
+      "versionName": "1",
+      "enabled": true,
+      "outputFile": "app-qihoo-release.apk"
+    }
+  ]
+}

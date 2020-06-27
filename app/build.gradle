@@ -10,7 +10,17 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //必须要保证所有的flavor 都属于同一个维度
+//        flavorDimensions "default"
     }
+//    productFlavors {
+//        qihoo {
+//            applicationId "com.coolweather.android.qihoo"
+//        }
+//        baidu {
+//            applicationId "com.coolweather.android.baidu"
+//        }
+//    }
     buildTypes {
         release {
             minifyEnabled false
